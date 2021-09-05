@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "smart-driving-c31e1": {
+      "hosting": {
+        "app": [
+          "smart-driving-c31e1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "electrical-engineering-company"
+  }
+}

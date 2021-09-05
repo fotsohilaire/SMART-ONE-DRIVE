@@ -1,0 +1,29 @@
+<div class="login" nz-row nzJustify="center" nzAlign="middle">
+    <div nz-col>
+        <div *ngIf="menu=='login'">
+            <app-login></app-login>
+            <div style="position: fixed; bottom: 5px;">
+                <p>2021 &copy; CAMEROON STARTUP</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="menu=='register'">
+    register
+</div>
+
+<div *ngIf="menu=='menu'" class="content">
+    <div class="title" nz-row nzAlign="middle">
+        <div nz-col>SOGELEC-NEW-TECH</div>
+        <div nz-col nzSpan="24">
+            <i nz-icon nzType="poweroff" nzTheme="outline"></i>
+        </div>
+    </div>
+    <div class="dyna">
+
+    </div>
+
+    <div class="menu" *ngIf="menu=='menu'">
+        <app-menu></app-menu>
+    </div>
+</div>
